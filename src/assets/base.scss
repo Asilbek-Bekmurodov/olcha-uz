@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px !important;
+  margin: auto !important;
+  display: block !important;
+  padding: 0 !important;
+}
+
+.header-section {
+  background: rgba(191, 69, 38, 0);
+
+  background: rgb(233, 100, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 100, 67, 1) 0%,
+    rgba(144, 78, 149, 1) 100%
+  );
+
+  .input-wrapper {
+    width: 400px;
+
+    .search-input {
+      padding: 0.5rem 2rem;
+      border-radius: 1.5rem;
+      width: 100%;
+      outline: none;
+      border: 2px solid white;
+    }
+    .fa-solid {
+      color: white ;
+    }
+    button {
+      position: absolute;
+      right: 0;
+      border-radius: 0 1.5rem 1.5rem 0;
+      padding: 0.5rem 2rem;
+      background-color: #EB2338;
+      border: 2px solid white;
+    }
+  }
+  .pointer{
+    cursor: pointer;
+  }
+}
+
+.btn-catalog {
+  padding: 10px 30px !important;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
+  padding: 5rem 8rem;
+  gap: 3rem 0.8rem;
+}
+
+.product-container {
+  img {
+    width: 100%;
+  }
+  .card-bottom {
+    padding: 1rem 3rem;
+  }
+  .btn-outline-dark {
+    border-radius: 3rem;
+  }
+  border-radius: 8px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.product-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
